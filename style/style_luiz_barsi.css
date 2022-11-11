@@ -1,0 +1,188 @@
+
+.primeira img {
+    display: flex;
+    max-width: 40vw;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.primeira h1 {
+    display: flex;
+    color: var(--cor4);
+    justify-content: center;
+    font-size: 2em;
+}
+
+.segunda {
+    margin-top: 50px;
+}
+
+.segunda h2 {
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.segunda p {
+    color: white;
+    font-size: 1.5em;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    text-indent: 30px;
+}
+
+.segunda div {
+    margin-top: 20px;
+    display: flex;
+    max-width: 80vw;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.segunda div button:hover {
+    color: var(--cor4);
+    position: absolute;
+    padding: 10px 24px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    border: 2px solid  var(--cor4);
+    box-shadow: 0 0 40px var(--cor4);
+}
+
+.segunda div button {
+    position: absolute;
+    padding: 10px 24px;
+    background-color: var(--cor4);
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+@media screen and (max-width: 1090px) {
+
+    .primeira h1 {
+        display: flex;
+        color: var(--cor4);
+        justify-content: center;
+        font-size: 1.7em;
+    }
+    
+    .segunda {
+        margin-top: 50px;
+    }
+    
+    .segunda h2 {
+        color: white;
+        justify-content: center;
+        display: flex;
+        font-size: 1.7em;
+        text-align: justify;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    .segunda p {
+        color: white;
+        font-size: 1.4em;
+        text-align: justify;
+        max-width: 90vw;
+        margin: auto;
+    }
+    
+    .segunda div {
+        margin-top: 20px;
+        display: flex;
+        max-width: 63vw;
+        justify-content: center;
+    }
+    
+    .segunda div button:hover {
+        color: var(--cor4);
+        position: absolute;
+        padding: 10px 24px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 5px;
+        justify-content: center;
+        border: 2px solid  var(--cor4);
+    }
+    
+    .segunda div button {
+        position: absolute;
+        padding: 10px 24px;
+        background-color: var(--cor4);
+        cursor: pointer;
+        border-radius: 5px;
+        justify-content: center;
+        transition: 0.7s;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    
+    .primeira h1 {
+        display: flex;
+        color: var(--cor4);
+        justify-content: center;
+        font-size: 1.4em;
+    }
+    
+    .segunda {
+        margin-top: 50px;
+    }
+    
+    .segunda h2 {
+        color: white;
+        justify-content: center;
+        display: flex;
+        font-size: 1.3em;
+        text-align: justify;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    .segunda p {
+        color: white;
+        font-size: 1.1em;
+        text-align: justify;
+        max-width: 90vw;
+        margin: auto;
+    }
+    
+    .segunda div {
+        margin-top: 20px;
+        display: flex;
+        max-width: 50vw;
+        justify-content: center;
+    }
+    
+    .segunda div button:hover {
+        color: var(--cor4);
+        position: absolute;
+        padding: 10px 24px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 5px;
+        justify-content: center;
+        border: 2px solid  var(--cor4);
+    }
+    
+    .segunda div button {
+        position: absolute;
+        padding: 10px 24px;
+        background-color: var(--cor4);
+        cursor: pointer;
+        border-radius: 5px;
+        justify-content: center;
+        transition: 0.7s;
+    }
+}
