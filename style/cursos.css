@@ -57,27 +57,28 @@ section {
 #ordem ul div img {
     display: flex;
     max-width: 200px;
+    max-height: 200px;
     margin: auto;
-    margin-top: 20px;
-    border: 1px solid  var(--cor4);
-    box-shadow: 0 0 10px var(--cor4);
+    margin-top: 40px;
+    border: 1px solid  #f3722c;
+    box-shadow: 0 0 10px #f3722c;
 }
 
 #ordem ul div a button:hover {
-    color: var(--cor4);
+    color: #f3722c;
     position: absolute;
     padding: 10px 76px;
     background-color: black;
     cursor: pointer;
     border-radius: 5px;
     justify-content: center;
-    border: 2px solid  var(--cor4);
-    box-shadow: 0 0 40px var(--cor4);
+    border: 2px solid  #f3722c;
+    box-shadow: 0 0 40px #f3722c;
 }
 #ordem ul div a button {
     position: absolute;
     padding: 10px 76px;
-    background-color: var(--cor4);
+    background-color: #f3722c;
     cursor: pointer;
     border-radius: 5px;
     justify-content: center;
