@@ -64,7 +64,7 @@ section {
 }
 
 #ordem ul div a button:hover {
-    color: var(--cor1);
+    color: var(--cor4);
     position: absolute;
     padding: 10px 76px;
     background-color: black;
