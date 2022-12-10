@@ -281,7 +281,9 @@ spam {
 }
 
 @media screen and (max-width: 624px) {
-
+    . primeira  div  h1 {
+       tamanho da fonte :  2em ;
+    }
     .segunda div {
         margin-top: 400px;
         padding-top: 100px;
