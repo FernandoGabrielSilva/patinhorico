@@ -67,6 +67,11 @@
     transition: 0.7s;
 }
 
+.terceira {
+    display: flex;
+    alight-item: center;
+}
+
 .terceiro img{
     display: flex;
     alight-item: center;
