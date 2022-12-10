@@ -32,6 +32,7 @@ span {
     margin: auto;
     font-size: 5rem;
     font-weight: 600;
+    margin-top: 200px;
 }
 
 .primeira section h1 span {
@@ -59,6 +60,7 @@ span {
     display: flex;
     justify-content: center;
     animation: arrow 2s infinite;
+    margin-top: -200px;
 }
 
 #cursos {
