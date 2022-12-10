@@ -67,11 +67,6 @@
     transition: 0.7s;
 }
 
-.segunda div img {
-    display: flex;
-    alight-item: center;
-}
-
 @media screen and (max-width: 1090px) {
 
     .primeira h1 {
