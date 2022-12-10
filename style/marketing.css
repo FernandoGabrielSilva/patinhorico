@@ -163,7 +163,7 @@ span {
         font-size: 3.5rem;
     }
     
-    primeira section a {
+    .primeira section a {
         margin-top: -300px;
     }
 
@@ -189,7 +189,7 @@ span {
         font-size: 3rem;
     }
     
-    primeira section a {
+    .primeira section a {
         margin-top: -400px;
     }
 
@@ -216,7 +216,7 @@ span {
         max-height: 0px;
     }
     
-    primeira section a {
+    .primeira section a {
         margin-top: -500px;
     }
 
@@ -244,7 +244,7 @@ span {
         max-height: 0px;
     }
     
-    primeira section a {
+    .primeira section a {
         margin-top: -600px;
     }
 
