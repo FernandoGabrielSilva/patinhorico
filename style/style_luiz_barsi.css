@@ -67,6 +67,10 @@
     transition: 0.7s;
 }
 
+.terceiro {
+    display: flex;
+    alight-item: center;
+}
 @media screen and (max-width: 1090px) {
 
     .primeira h1 {
