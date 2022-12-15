@@ -1,0 +1,150 @@
+
+main {
+    max-width: 100vw;
+    margin: auto;
+}
+
+main h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: -36px;
+}
+
+section {
+    max-width: 90vw;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#ordem {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#ordem ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* #ordem ul div:hover{
+    animation: foco 2s both;
+} */
+
+#ordem ul div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+#ordem ul div a {
+    display: flex;
+}
+
+#ordem ul div li {
+    color: white;
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    align-items: center;
+    margin: 169px 0;
+    margin-bottom: 2px;
+} 
+
+#ordem ul div img {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid  #f3722c;
+    box-shadow: 0 0 10px #f3722c;
+    position: absolute;
+    margin-left: 16px;
+}
+
+#ordem ul div details {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10px;
+    max-width: 230px;
+}
+
+#ordem ul div a button:hover {
+    color: #f3722c;
+    position: absolute;
+    padding: 10px 76px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    border: 2px solid  #f3722c;
+    box-shadow: 0 0 40px #f3722c;
+}
+#ordem ul div a button {
+    position: absolute;
+    padding: 10px 76px;
+    background-color: #f3722c;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    transition: 0.7s;
+    border: 2px solid  #f3722c;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    background-color: black;
+    /* width: 8em; */
+    /* margin-top: -2.5em; */
+    padding: 4px 46vw;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer a h2 {
+    color: white;
+}
+
+@media screen and (max-width: 1080px) {
+    main h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 1.7em;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    main h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2em;
+        margin-top: 30px;
+    }
+}
+
+
+@keyframes foco {
+    0% {
+      transform: translateY(0px);
+    }
+    /* 50% {
+      transform: translateY(-20PX);
+    } */
+    100% {
+        transform: translateY(-20PX);
+    }
+  }
