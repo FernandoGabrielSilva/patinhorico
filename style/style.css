@@ -401,7 +401,7 @@ spam {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
     .primeira img {
         width: 80px;
         display: flex;
