@@ -115,6 +115,90 @@ section {
         font-size: 1.2em;
         margin-top: 30px;
     }
+
+    #ordem ul div li {
+        color: white;
+        display: flex;
+        font-size: 1.2em;
+        flex-direction: column;
+        align-items: center;
+        margin: 129px 0;
+        margin-bottom: 2px;
+    } 
+    
+    #ordem ul div img {
+        display: flex;
+        max-width: 150px;
+        max-height: 200px;
+        margin: auto;
+        margin-top: 40px;
+        border: 1px solid  #f3722c;
+        box-shadow: 0 0 10px #f3722c;
+        position: absolute;
+        margin-left: 18px;
+    }
+    
+    #ordem ul div details {
+        color: white;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+        max-width: 188px;
+    }
+    
+    #ordem ul div a button:hover {
+        padding: 5px 64px;
+    }
+    #ordem ul div a button {
+        padding: 5px 64px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 0.7em;
+        margin-top: 30px;
+    }
+    
+    #ordem ul div li {
+        color: white;
+        display: flex;
+        font-size: 1em;
+        flex-direction: column;
+        align-items: center;
+        margin: 129px 0;
+        margin-bottom: 2px;
+    } 
+    
+    #ordem ul div img {
+        display: flex;
+        max-width: 127px;
+        max-height: 200px;
+        margin: auto;
+        margin-top: 40px;
+        border: 1px solid  #f3722c;
+        box-shadow: 0 0 10px #f3722c;
+        position: absolute;
+        margin-left: 16px;
+    }
+    
+    #ordem ul div details {
+        color: white;
+        font-size: 0.8em;
+        margin-bottom: 10px;
+        max-width: 158px;
+    }
+    
+    #ordem ul div a button:hover {
+        padding: 3px 48px;
+    }
+    #ordem ul div a button {
+        padding: 3px 48px;
+        font-size: 0.8em;
+    }
 }
 
 

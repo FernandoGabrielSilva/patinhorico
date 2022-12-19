@@ -218,7 +218,11 @@ span {
     }
     
     .primeira section a {
-        margin-top: -400px;
+        margin-top: -490px;
+    }
+
+    .primeira img {
+        width: 15px;
     }
 
     #cursos h2 {
@@ -240,6 +244,10 @@ span {
 }
 
 @media screen and (max-width: 500px) {
+    .primeira header img {
+        width: 80px;
+    }
+
     .primeira section h1 {
         font-size: 1rem;
         max-height: 0px;
@@ -249,20 +257,47 @@ span {
         margin-top: -450px;
     }
 
+    .primeira section h1 u::after {
+        height: 1px;
+    }
+
     #cursos h2 {
         font-size: 1rem;
     }
 
     .content {
-        margin: 1rem;
+        margin: 0.5rem;
+        font-size: 1em;
+    }
+
+    .segunda img {
+        width: 20px;
+        margin-bottom: -20px;
     }
 
     .segunda h2 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     .item p {
-        font-size: 1rem;
+        font-size: 0.7rem;
+        margin-left: -15px;
+    }
+
+    .item img {
+        margin-top: -23px;
+    }
+
+    .segunda button:hover {
+        margin: 20px -1px;
+        padding: 3px 30px;
+        font-size: 0.8em;
+    }
+    
+    .segunda button {
+        margin: 20px -1px;
+        padding: 3px 30px;
+        font-size: 0.8em;
     }
 }
 

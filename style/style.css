@@ -482,14 +482,14 @@ spam {
     .segunda  div button,
     .terceira div button,
     .quarta div button {
-        padding: 3px 40px;
+        padding: 5px 40px;
         font-size: 0.5em;
     }
 
     .segunda  div button:hover,
     .terceira div button:hover,
     .quarta div button:hover {
-        padding: 3px 40px;
+        padding: 5px 40px;
         font-size: 0.5em;
     }
 }
