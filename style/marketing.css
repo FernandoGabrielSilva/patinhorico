@@ -288,7 +288,8 @@ span {
     }
 
     .segunda {
-        height: 70%;
+        margin-top: 100px;
+        margin-bottom: -200px;
     }
 
     .segunda h2 {
