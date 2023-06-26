@@ -287,9 +287,12 @@ span {
         margin-bottom: -20px;
     }
 
+    .segunda {
+        height: 70%;
+    }
+
     .segunda h2 {
         font-size: 1rem;
-        height: 70%;
     }
     
     .item p {
