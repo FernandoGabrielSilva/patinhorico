@@ -269,6 +269,10 @@ span {
         height: 1px;
     }
 
+    #cursos {
+        margin: 200px 0;
+    }
+
     #cursos h2 {
         font-size: 1rem;
     }
