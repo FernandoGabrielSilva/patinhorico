@@ -290,6 +290,7 @@ span {
     .segunda {
         margin-top: 150px;
         margin-bottom: -200px;
+        height: 400px
     }
 
     .segunda h2 {
