@@ -56,24 +56,28 @@ span {
 }
 
 .primeira section a {
-    margin: auto;
-    display: flex;
-    justify-content: center;
     animation: arrow 2s infinite;
-    margin-top: -200px;
+    margin-top: -100%;
+    margin-bottom: auto;
 }
 
 #cursos {
     text-align: center;
     background: url(https://staage.com/_nuxt/img/numbers-background.2a696c6.png) no-repeat;
     background-size: cover;
-    padding: 16rem 0;
+    padding: 8rem 0;
+    margin: 300px 0;
+    margin-bottom: 600px
 }
 
 #cursos h2 {
     color: #fff;
     font-weight: 600;
     font-size: 3.2rem;
+}
+
+#cursos .number .content {
+  font-family: bold;
 }
 
 .number {
@@ -86,7 +90,7 @@ span {
 
 .content {
     text-align: center;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
@@ -94,6 +98,10 @@ span {
     justify-content: center;
     position: relative;
     margin: 5rem;
+}
+
+.content span {
+  font-weight: bold;
 }
 
 .itens {
@@ -165,7 +173,7 @@ span {
     }
     
     .primeira section a {
-        margin-top: -300px;
+        /*margin-top: -300px;*/
     }
 
     #cursos h2 {
@@ -191,7 +199,7 @@ span {
     }
     
     .primeira section a {
-        margin-top: -400px;
+        /*margin-top: -400px;*/
     }
 
     #cursos h2 {
@@ -218,7 +226,7 @@ span {
     }
     
     .primeira section a {
-        margin-top: -380px;
+        /*margin-top: -380px;*/
     }
 
     .primeira img {
@@ -254,7 +262,7 @@ span {
     }
     
     .primeira section a {
-        margin-top: -450px;
+        /*margin-top: -450px;*/
     }
 
     .primeira section h1 u::after {
