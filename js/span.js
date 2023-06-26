@@ -3,7 +3,7 @@ let span2 = document.querySelector(".span-2")
 let span3 = document.querySelector(".span-3")
 
 let footer = document.querySelector(".footer")
-let link = "https://www.instagram.com/";
+let link = 'https://instagram.com/patinho__rico?igshid=MjAxZDBhZDhlNA==';
 
 //ANIMATION MARKETING
 
