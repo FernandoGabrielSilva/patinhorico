@@ -262,7 +262,7 @@ span {
     }
     
     .primeira section a {
-        /*margin-top: -450px;*/
+        margin-top: -150%;
     }
 
     .primeira section h1 u::after {
