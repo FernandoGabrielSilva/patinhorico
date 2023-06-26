@@ -270,7 +270,7 @@ span {
     }
 
     #cursos {
-        margin: -100px 0 50px 0;
+        margin: -100px 0 100px 0;
     }
 
     #cursos h2 {
@@ -291,7 +291,7 @@ span {
         margin-top: 150px;
         margin-bottom: -200px;
         width: 99%
-        height: 400px
+        height: 300px
     }
 
     .segunda h2 {
