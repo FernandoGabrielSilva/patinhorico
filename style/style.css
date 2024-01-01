@@ -200,7 +200,7 @@ main {
 }
 
 .quarta h2 {
-	color: var(--color6);
+	color: var(--color3);
 	font-size: 2rem;
 	padding: 0 30px;
 	font-family: var(--font-impacto);
@@ -212,24 +212,24 @@ main {
 }
 
 .quarta div button:hover {
-    color: var(--color6);
+    color: var(--color3);
     margin: 20px -1px;
     padding: 10px 90px;
     background-color: black;
     cursor: pointer;
     border-radius: 5px;
-    border: 2px solid var(--color6);
-    box-shadow: 0 0 40px var(--color6);
+    border: 2px solid var(--color3);
+    box-shadow: 0 0 40px var(--color3);
 }
 
 .quarta div button {
     margin: 20px -1px;
     padding: 10px 90px;
-    background-color: var(--color6);
+    background-color: var(--color3);
     cursor: pointer;
     border-radius: 5px;
     transition: 0.7s;
-    border: 2px solid var(--color6);
+    border: 2px solid var(--color3);
     font-family: var(--font-voll);
 
 }
@@ -251,6 +251,7 @@ main {
 	.second p,
 	.terceiro p {
 		font-size: 1.2rem;
+		padding: 0 40px;
 	}
 
 	.second div button,
@@ -268,6 +269,7 @@ main {
 	.second h3,
 	.terceiro h3 {
 		font-size: 1.2rem;
+		padding: 0 40px;
 	}
 
 	.quarta h2 {
@@ -279,6 +281,7 @@ main {
 	.primeira h1,
 	.terceiro h2 {
    		font-size: 1.6rem;
+   		padding: 0 25px;
 	}
 
 	.primeira img {
@@ -287,11 +290,13 @@ main {
 
 	.second h2 {
 		font-size: 1.4rem;
+		padding: 0 25px;
 	}
 
 	.second p,
 	.terceiro p {
 		font-size: 0.9rem;
+		padding: 0 50px;
 	}
 
 	.second div button,
@@ -309,10 +314,12 @@ main {
 	.second h3,
 	.terceiro h3 {
 		font-size: 1rem;
+		padding: 0 50px;
 	}
 
 	.quarta h2 {
 		font-size: 1.3rem;
+		padding: 0 25px;
 	}
 }
 
@@ -320,6 +327,7 @@ main {
 	.primeira h1,
 	.terceiro h2 {
    		font-size: 1.5rem;
+   		padding: 0 20px;
 	}
 
 	.primeira img {
@@ -328,11 +336,13 @@ main {
 
 	.second h2 {
 		font-size: 1.2rem;
+		padding: 0 20px;
 	}
 
 	.second p,
 	.terceiro p {
 		font-size: 0.8rem;
+		padding: 0 40px;
 	}
 
 	.second div button,
@@ -351,9 +361,11 @@ main {
 	.second h3,
 	.terceiro h3 {
 		font-size: 1rem;
+		padding: 0 40px;
 	}
 
 	.quarta h2 {
 		font-size: 1.2rem;
+		padding: 0 20px;
 	}
 }
