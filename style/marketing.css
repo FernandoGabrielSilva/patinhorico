@@ -38,7 +38,7 @@ main {
 
 .primeira section h1 {
     color: white;
-    font-size: clamp(1.2rem, 1.2rem + 1vw, 3.5rem);
+    font-size: clamp(1.3rem, 1.3rem + 1vw, 3.5rem);
     font-weight: 600;
     text-align: center;
 }
@@ -104,7 +104,7 @@ main {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin: clamp(0.4rem, 40%, 5rem);
+    margin: clamp(0.4rem, 0.4rem + 1vw, 5rem);
 }
 
 .itens {
