@@ -104,7 +104,7 @@ main {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin: clamp(0.4rem, 0.4rem + 1vw, 5rem);
+    margin: clamp(0.5rem, 0.5rem + 1vw, 5rem);
 }
 
 .itens {
@@ -134,7 +134,7 @@ main {
 .segunda h2 {
     color: white;
     font-weight: 600;
-    font-size: clamp(0.9rem, 0.9rem + 1vw, 2.9rem);
+    font-size: clamp(1.2rem, 1.2rem + 1vw, 2.9rem);
     max-width: 1000px;
     margin-left: 2%;
 }
@@ -145,7 +145,7 @@ main {
 }
 
 .item img {
-    margin-right: 1.5rem;
+    margin-right: 1rem;
 }
 
 .item p {
@@ -180,6 +180,39 @@ main {
     border: 2px solid #f3722c;
     font-size: 1.4rem;
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 767px){
+    .segunda div button {
+        padding: 5px 60px;
+        padding: 0 30px;
+    }
+
+    .segunda div button:hover{
+        padding: 5px 60px;
+    }
+}
+
+@media screen and (max-width: 634px){
+    .segunda div button {
+        padding: 5px 60px;
+    }
+
+    .segunda div button:hover {
+        padding: 5px 60px;
+    }
+}
+
+@media screen and (max-width: 525px){
+    .segunda div button {
+        padding: 4px 40px;
+        font-size: 0.8rem;
+    }
+
+    .segunda div button:hover {
+        padding: 4px 40px;
+    }
 }
 
 @keyframes arrow {
