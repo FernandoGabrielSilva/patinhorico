@@ -1,26 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
-:root {
-    --color0: #F3720A;
-    --color1:#f9aa00;
-    --color3:#fbca04;
-    --color4:#ffea00;
-    --color5:#ed4b00;
-    --color6:#00e1ed;
-
-    --font-impacto: 'Rubik', sans-serif;
-    --font-voll: 'Vollkorn', serif;
-    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
-}
-
 main {
-	width: 100vw;
 	align-items: center;
 	margin: auto;
 }
@@ -29,7 +10,7 @@ main {
 	display: flex;
 	justify-content: center;
     flex-direction: column;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background-image: url('../img/backgroung.jpg');
 	background-repeat: no-repeat;
@@ -39,13 +20,14 @@ main {
 }
 
 .primeira img {
-	width: 100px;
+	width: clamp(70px, 70px + 1vw, 100px);
 	padding: 0 15px;
 }
 
 .primeira h1 {
 	color: #fff;
-	font-size: 2rem;
+/* 	font-size: 2rem; */
+	font-size: clamp(1.2rem, 1.2rem + 1vw, 2rem);
 	padding: 0 30px;
 	-webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
 	font-family: var(--font-impacto);
@@ -61,7 +43,7 @@ main {
 	display: flex;
 	justify-content: center;
     flex-direction: column;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background-image: url('../img/fundo_1.jpg');
 	background-repeat: no-repeat;
@@ -73,29 +55,29 @@ main {
 
 .second h2 {
 	color: var(--color0);
-	font-size: 2rem;
-	padding: 0 30px;
+	font-size: clamp(1rem, 1rem + 1vw, 2rem);
+	padding: 0 15px;
 	font-family: var(--font-impacto);
 	padding-bottom: 8px;
 }
 
 .second h3 {
 	color: #fff;
-	font-size: 1.3rem;
-	padding: 0 50px;
+	font-size: clamp(0.9rem, 0.9rem + 1vw, 1.5rem);
+	padding: 0 20px;
 	padding-bottom: 8px;
 	font-family: var(--font-voll);
 }
 
 .second p {
 	color: #fff ;
-	font-size: 1rem;
-	padding: 0 50px;
+	font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
+	padding: 0 20px;
 	font-family: var(--font-voll);
 }
 
 .second div {
-	padding: 0 70px;
+	padding: 0 40px;
 }
 
 .second div button:hover {
@@ -125,7 +107,7 @@ main {
 	display: flex;
 	justify-content: center;
     flex-direction: column;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background-image: url('../img/napoleon-hill.png');
 	background-repeat: no-repeat;
@@ -137,29 +119,29 @@ main {
 
 .terceiro h2 {
 	color: var(--color6);
-	font-size: 2rem;
-	padding: 0 30px;
+	font-size: clamp(2rem, 2rem + 1vw, 2.3rem);
+	padding: 0 15px;
 	font-family: var(--font-impacto);
 	padding-bottom: 8px;
 }
 
 .terceiro h3 {
 	color: #fff;
-	font-size: 1.3rem;
-	padding: 0 50px;
+	font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
+	padding: 0 20px;
 	padding-bottom: 8px;
 	font-family: var(--font-voll);
 }
 
 .terceiro p {
 	color: #fff ;
-	font-size: 1rem;
-	padding: 0 50px;
+	font-size: clamp(0.8rem, 0.8em + 1vw, 1.2rem);
+	padding: 0 20px;
 	font-family: var(--font-voll);
 }
 
 .terceiro div {
-	padding: 0 70px;
+	padding: 0 40px;
 }
 
 .terceiro div button:hover {
@@ -189,7 +171,7 @@ main {
 	display: flex;
 	justify-content: center;
     flex-direction: column;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background-image: url('../img/livros-background.jpeg');
 	background-repeat: no-repeat;
@@ -201,14 +183,14 @@ main {
 
 .quarta h2 {
 	color: var(--color3);
-	font-size: 2rem;
-	padding: 0 30px;
+	font-size: clamp(1.1rem, 1.1rem + 1vw, 2rem);
+	padding: 0 15px;
 	font-family: var(--font-impacto);
 	padding-bottom: 8px;
 }
 
 .quarta div {
-	padding: 0 70px;
+	padding: 0 40px;
 }
 
 .quarta div button:hover {
@@ -235,9 +217,10 @@ main {
 }
 
 @media screen and (max-width: 767px){
-	.primeira h1,
+	/* .primeira h1,
 	.terceiro h2 {
    		font-size: 1.6rem;
+   		padding: 0 25px;
 	}
 
 	.primeira img {
@@ -246,18 +229,21 @@ main {
 
 	.second h2 {
 		font-size: 1.5rem;
+		padding: 0 25px;
 	}
 
 	.second p,
 	.terceiro p {
 		font-size: 1.2rem;
 		padding: 0 40px;
+		padding: 0 30px;
 	}
-
+ */
 	.second div button,
 	.terceiro div button,
 	.quarta div button {
 		padding: 5px 60px;
+		padding: 0 30px;
 	}
 
 	.second div button:hover,
@@ -265,7 +251,7 @@ main {
 	.quarta div button:hover {
 		padding: 5px 60px;
 	}
-
+/* 
 	.second h3,
 	.terceiro h3 {
 		font-size: 1.2rem;
@@ -274,12 +260,13 @@ main {
 
 	.quarta h2 {
 		font-size: 1.5rem;
-	}
+		padding: 0 25px;
+	} */
 }
 
 @media screen and (max-width: 634px){
 	.primeira h1,
-	.terceiro h2 {
+/* 	.terceiro h2 {
    		font-size: 1.6rem;
    		padding: 0 25px;
 	}
@@ -298,7 +285,7 @@ main {
 		font-size: 0.9rem;
 		padding: 0 50px;
 	}
-
+ */
 	.second div button,
 	.terceiro div button,
 	.quarta div button {
@@ -310,7 +297,7 @@ main {
 	.quarta div button:hover {
 		padding: 5px 60px;
 	}
-
+/* 
 	.second h3,
 	.terceiro h3 {
 		font-size: 1rem;
@@ -320,11 +307,11 @@ main {
 	.quarta h2 {
 		font-size: 1.3rem;
 		padding: 0 25px;
-	}
+	} */
 }
 
 @media screen and (max-width: 525px){
-	.primeira h1,
+/* 	.primeira h1,
 	.terceiro h2 {
    		font-size: 1.5rem;
    		padding: 0 20px;
@@ -344,7 +331,7 @@ main {
 		font-size: 0.8rem;
 		padding: 0 40px;
 	}
-
+ */
 	.second div button,
 	.terceiro div button,
 	.quarta div button {
@@ -357,7 +344,7 @@ main {
 	.quarta div button:hover {
 		padding: 4px 40px;
 	}
-
+/* 
 	.second h3,
 	.terceiro h3 {
 		font-size: 1rem;
@@ -367,5 +354,5 @@ main {
 	.quarta h2 {
 		font-size: 1.2rem;
 		padding: 0 20px;
-	}
+	} */
 }

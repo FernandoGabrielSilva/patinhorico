@@ -9,16 +9,18 @@ html {
     padding: 0;
 }
 
-:root {
-    --cor0:#f9aa00;
-    --cor1:#fbca04;
-    --cor2:#ffea00;
-    --cor3:#ed4b00;
-    --cor4:#00e1ed;
 
-    --font-padrão: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --font-android: 'Android', cursive;
+:root {
+    --color0: #F3720A;
+    --color1:#f9aa00;
+    --color3:#fbca04;
+    --color4:#ffea00;
+    --color5:#ed4b00;
+    --color6:#00e1ed;
+
+    --font-impacto: 'Rubik', sans-serif;
+    --font-voll: 'Vollkorn', serif;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
 
 body {
@@ -33,37 +35,4 @@ body {
 
 ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0);
-}
-
-
-.footer {
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    background-color: black;
-    width: 100vw;
-    /* margin-top: -2.5em; */
-    padding: 4px;
-    text-align: center;
-}
-
-.footer a{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-}
-
-.footer a h2 {
-    color: white;
-}
-
-.footer a svg {
-    color: white;
-    width: 30px;
-    height: 30px;
-}
-
-.footer a svg::before {
-    content: '\F152';
-    color: white;
 }
