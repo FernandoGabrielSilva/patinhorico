@@ -265,8 +265,9 @@ main {
 }
 
 @media screen and (max-width: 634px){
+	/*
 	.primeira h1,
-/* 	.terceiro h2 {
+ 	.terceiro h2 {
    		font-size: 1.6rem;
    		padding: 0 25px;
 	}
