@@ -1,0 +1,80 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	align-items: center;
+    margin: auto;
+}
+
+div h1 {
+	color: white;
+    font-size: clamp(1.3rem, 1.3rem + 1vw, 3rem);
+    font-family: var(--font-impacto);
+    text-align: center;
+}
+
+section ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section ul div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 12px;
+    box-shadow: 0 0 10px #f3722c;
+    border-radius: 5px;
+    width: clamp(200px, 200px + 1vw, 300px);
+}
+
+section ul div img {
+	width: clamp(100px, 100px + 5vw, 200px);
+	box-shadow: 0 0 10px #f3722c;
+}
+
+section ul div h2 {
+    color: white;
+    font-size: clamp(0.8rem, 0.8rem + 1vw, 1.2rem);
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+section ul div p {
+	max-height: 40px;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	color: white;
+	margin-bottom: 5px;
+}
+
+section ul div a button:hover {
+    color: #f3722c;
+    padding: 5px 50px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    border: 2px solid  #f3722c;
+    box-shadow: 0 0 40px #f3722c;
+}
+section ul div a button {
+    padding: 5px 50px;
+    background-color: #f3722c;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    transition: 0.7s;
+    border: 2px solid  #f3722c;
+}
