@@ -24,6 +24,7 @@ main {
     background-image: url('../img/background_mark_1704216249551.jpeg');
 /*  Imagem de background feito por flatart no Freepik    */
     background-repeat: no-repeat;
+    background-position: right;
     background-size: cover;
     border-image: fill 0 linear-gradient(#0005, #000f);
     justify-content: center;
@@ -127,6 +128,7 @@ main {
 /*  Imagem de background feito por rawpixel.com no Freepik     */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     background-position: center;
     border-image: fill 0 linear-gradient(#000f, #000b);
     justify-content: center;
