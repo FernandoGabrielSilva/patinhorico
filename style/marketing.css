@@ -74,7 +74,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-image: fill 0 linear-gradient(#0009, #0001);
+    border-image: fill 0 linear-gradient(#0002, #0001);
     justify-content: center;
 }
 
@@ -129,7 +129,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    background-position: center;
     border-image: fill 0 linear-gradient(#000f, #000b);
     justify-content: center;
 }
