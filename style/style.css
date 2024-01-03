@@ -165,55 +165,6 @@ main {
 
 }
 
-.quarta {
-	display: flex;
-	justify-content: center;
-    flex-direction: column;
-	width: 100%;
-	height: 100vh;
-	background-image: url('../img/livros-background.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-image: fill 0 linear-gradient(#000f, #000b);
-	justify-content: center;
-}
-
-.quarta h2 {
-	color: var(--color3);
-	font-size: clamp(1.1rem, 1.1rem + 1vw, 2rem);
-	padding: 0 15px;
-	font-family: var(--font-impacto);
-	padding-bottom: 8px;
-}
-
-.quarta div {
-	padding: 0 40px;
-}
-
-.quarta div button:hover {
-    color: var(--color3);
-    margin: 20px -1px;
-    padding: 10px 90px;
-    background-color: black;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 2px solid var(--color3);
-    box-shadow: 0 0 40px var(--color3);
-}
-
-.quarta div button {
-    margin: 20px -1px;
-    padding: 10px 90px;
-    background-color: var(--color3);
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.7s;
-    border: 2px solid var(--color3);
-    font-family: var(--font-voll);
-
-}
-
 @media screen and (max-width: 767px){
 	/* .primeira h1,
 	.terceiro h2 {
@@ -238,15 +189,13 @@ main {
 	}
  */
 	.second div button,
-	.terceiro div button,
-	.quarta div button {
+	.terceiro div button {
 		padding: 5px 60px;
 		padding: 0 30px;
 	}
 
 	.second div button:hover,
-	.terceiro div button:hover,
-	.quarta div button:hover {
+	.terceiro div button:hover {
 		padding: 5px 60px;
 	}
 /* 
@@ -286,14 +235,12 @@ main {
 	}
  */
 	.second div button,
-	.terceiro div button,
-	.quarta div button {
+	.terceiro div button {
 		padding: 5px 60px;
 	}
 
 	.second div button:hover,
-	.terceiro div button:hover,
-	.quarta div button:hover {
+	.terceiro div button:hover {
 		padding: 5px 60px;
 	}
 /* 
@@ -332,15 +279,13 @@ main {
 	}
  */
 	.second div button,
-	.terceiro div button,
-	.quarta div button {
+	.terceiro div button {
 		padding: 4px 40px;
 		font-size: 0.8rem;
 	}
 
 	.second div button:hover,
-	.terceiro div button:hover,
-	.quarta div button:hover {
+	.terceiro div button:hover {
 		padding: 4px 40px;
 	}
 /* 
