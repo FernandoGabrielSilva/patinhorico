@@ -10,7 +10,7 @@ ScrollReveal().reveal('.slide-up', {
   distance: '50%',
   origin: 'bottom',
   opacity: '0',
-  delay: 250,
+  delay: 350,
   duration: 250,
   reset: true
 })
